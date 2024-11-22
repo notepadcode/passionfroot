@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- БЭМ - блок-элемент-модификатор -->
+
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__nav__list">
+          <li class="header__nav__list__item">
+            <a href="about_us.html" class="header__nav__list__item__link"
+              >About us</a
+            >
+          </li>
+          <li class="header__nav__list__item">
+            <a href="#" class="header__nav__list__item__link">Careers</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="#" class="header__nav__list__item__link">Resources</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="#" class="header__nav__list__item__link">Login</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a
+              href="#"
+              class="header__nav__list__item__link header__nav__list__item header__nav__list__item__link_button header__nav__list__item__link_button_orange"
+            >
+              Get access
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero__container">
+        <h2 class="hero__title">
+          Where creators
+          <br />
+          do business
+        </h2>
+        <p class="hero__subtitle">
+          Passionfroot lets you handle sponsorships, collaboration requests,
+          bookings, and payments – in one single place. Stop feeling overwhelmed
+          by the opportunities. Start seizing them.
+        </p>
+        <button class="hero__button">Get access</button>
+      </div>
+      <img
+        class="hero__img hero__img__top-left"
+        src="assets/hero/hero-img-1.jpg"
+        alt=""
+      />
+      <img
+        class="hero__img hero__img__top-right"
+        src="assets/hero/hero-img-2.jpg"
+        alt=""
+      />
+      <img
+        class="hero__img hero__img__bottom-left"
+        src="assets/hero/hero-img-3.jpg"
+        alt=""
+      />
+      <img
+        class="hero__img hero__img__bottom-right"
+        src="assets/hero/hero-img-4.jpg"
+        alt=""
+      />
+    </section>
+    <!-- Creators -->
+    <section class="creators">
+      <div class="creators__container">
+        <h2 class="creators__title">
+          For all<br />
+          creators
+        </h2>
+
+        <!-- Creators list -->
+        <ul class="creators__list">
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">Podcasters</a>
+          </li>
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">Youtubers</a>
+          </li>
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">Newsletter Writers</a>
+          </li>
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">Media companies</a>
+          </li>
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">TikTokers</a>
+          </li>
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">Influencers</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Cons list -->
+    <section class="cons">
+      <div class="cons__container">
+        <!-- list of cons -->
+        <div class="cons__list__container">
+          <h4 class="cons__list__heading">
+            Is running the show running <br />
+            you down, too?
+          </h4>
+          <ul class="cons__list">
+            <li class="cons__list__item">
+              You waste 70% of time on admin work
+            </li>
+            <li class="cons__list__item">
+              Juggling 10+ tools to handle requests and payments
+            </li>
+            <li class="cons__list__item">
+              Losing track, details and your spark due to constant back and
+              forth
+            </li>
+          </ul>
+        </div>
+
+        <!-- image -->
+        <img
+          src="./assets/img/sitting-lemon.png"
+          alt="sitting-lemon"
+          class="cons__image"
+        />
+      </div>
+    </section>
+
+    <!-- Pros list -->
+    <section class="pros">
+      <div class="pros__container">
+        <!-- list of pros -->
+        <div class="pros__list__container">
+          <h4 class="pros__list__heading">Get over the overwhelm</h4>
+          <ul class="pros__list">
+            <li class="pros__list__item">
+              Free up your time (and mind) to create more
+            </li>
+            <li class="pros__list__item">
+              Handle all partnerships in one place
+            </li>
+            <li class="pros__list__item">
+              Streamline your workflows to save time
+            </li>
+          </ul>
+        </div>
+
+        <!-- image -->
+        <img
+          src="./assets/img/sitting-lemon.png"
+          alt="sitting-lemon"
+          class="pros__image"
+        />
+      </div>
+    </section>
+    <!-- Articles -->
+    <section>
+      <div class="articles">
+        <div class="articles__content">
+          <header class="articles__content__header">
+            Content that gets your creative juices going
+          </header>
+          <div class="articles__content__buttons">
+            <div class="articles_content__buttons_button">Newsletter</div>
+            <div class="articles_content__buttons_button">Podcasts</div>
+            <div class="articles_content__buttons_button">Blog</div>
+            <div class="articles_content__buttons_button">Guides</div>
+          </div>
+        </div>
+        <div class="articles__content__articles">
+          <div class="articles__content__articles__article articles__content__articles__article_violet">
+            <div class="articles__content__articles__article__content">
+              <div class="articles__content__articles__article__content__info">SEPTEMBER 16, 2022 &middot; 3 MIN READ</div>
+              <div class="articles__content__articles__article__content__title">You're in the wrong lane</div>
+              <div class="articles__content__articles__article__content__hr"><hr></div>
+            </div>
+          </div>
+          <div class="articles__content__articles__article articles__content__articles__article_yellow">
+            <div class="articles__content__articles__article__content">
+              <div class="articles__content__articles__article__content__info">JUNE 3, 2022 &middot; 3 MIN READ</div>
+              <div class="articles__content__articles__article__content__title">The power of a weekly review</div>
+              <div class="articles__content__articles__article__content__hr"><hr></div>
+            </div>
+          </div>
+          <div class="articles__content__articles__article articles__content__articles__article_lightblue">
+            <div class="articles__content__articles__article__content">
+              <div class="articles__content__articles__article__content__info">MAY 13, 2022 &middot; 8 MIN READ</div>
+              <div class="articles__content__articles__article__content__title">How to ask better questions</div>
+              <div class="articles__content__articles__article__content__hr"><hr></div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </body>
+</html>
